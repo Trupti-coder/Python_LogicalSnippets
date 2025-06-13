@@ -12,3 +12,8 @@ def rotate_array(array, k):
 
     # # copy back to original array if needed, or just return result
     # return result
+
+    # Example usage
+array = [1, 2, 3, 4, 5]
+rotated = rotate_array(array, 2)
+print(rotated)  # Output: [4, 5, 1, 2, 3]

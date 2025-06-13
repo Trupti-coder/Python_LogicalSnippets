@@ -9,3 +9,6 @@ def rotate_array(array, k):
 
     # copy back to original array if needed, or just return result
     return result
+
+    # # copy back to original array if needed, or just return result
+    # return result

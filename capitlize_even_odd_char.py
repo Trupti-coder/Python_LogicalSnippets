@@ -14,3 +14,9 @@ def capitlize_even_odd_char(char):
 
     return capitalized_arr
 
+# Example usage
+arr = ["hello", "world", "this", "is", "javascript"]
+print(capitalize_even_odd_char(arr))
+# Output: ['HeLlO', 'WoRlD', 'ThIs', 'Is', 'JaVaScRiPt']
+
+

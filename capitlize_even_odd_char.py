@@ -7,3 +7,10 @@ def capitlize_even_odd_char(char):
             char = word[i]
             if i % 2 == 0:
 
+                capitalized_word += char.upper()
+            else:
+                capitalized_word += char.lower()
+        capitalized_arr.append(capitalized_word)
+
+    return capitalized_arr
+

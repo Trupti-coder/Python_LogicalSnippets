@@ -9,3 +9,4 @@ def array_chunk(arr, k):
 
              if len(chunk) > 0:
         result.append(chunk)
+         return result

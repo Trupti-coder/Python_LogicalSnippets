@@ -8,3 +8,7 @@ def capitalize_first_char(arr):
             first_char = word[0].upper()
             capitalized_word = first_char + word[1:]
         else:
+              capitalized_word = ""
+        uppercased_arr.append(capitalized_word)
+
+    return uppercased_arr

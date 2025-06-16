@@ -10,3 +10,10 @@ def num_addition():
                 num = num * 10 + int(input_str[i])
                 i += 1
             total += num
+                 else:
+            i += 1
+
+    print(total)
+
+# Example usage
+num_addition()  # Output: 15

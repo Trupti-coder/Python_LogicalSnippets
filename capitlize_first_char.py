@@ -12,3 +12,8 @@ def capitalize_first_char(arr):
         uppercased_arr.append(capitalized_word)
 
     return uppercased_arr
+
+# Example usage
+words = ["hello", "world", "this", "is", "javascript"]
+capitalized_words = capitalize_first_char(words)
+print(capitalized_words)  # Output: ['Hello', 'World', 'This', 'Is', 'Javascript']

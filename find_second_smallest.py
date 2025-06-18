@@ -10,3 +10,5 @@ def find_second_smallest(arr):
             elif num < second_smallest and num != smallest:
             second_smallest = num
              return None if second_smallest == float('inf') else second_smallest
+        # Example usage
+numbers = [5, 3, 8, 1, 2]

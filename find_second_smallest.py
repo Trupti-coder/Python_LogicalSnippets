@@ -7,3 +7,5 @@ def find_second_smallest(arr):
         if num < smallest:
             second_smallest = smallest
             smallest = num
+            elif num < second_smallest and num != smallest:
+            second_smallest = num

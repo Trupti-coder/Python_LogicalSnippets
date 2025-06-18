@@ -12,3 +12,5 @@ def find_second_smallest(arr):
              return None if second_smallest == float('inf') else second_smallest
         # Example usage
 numbers = [5, 3, 8, 1, 2]
+result = find_second_smallest(numbers)
+print("Second smallest:", result)  # Output: Second smallest: 2

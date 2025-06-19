@@ -7,3 +7,5 @@ def group_by_condition(arr, condition):
             group1.append(item)
         else:
             group2.append(item)
+           
+    return [group1, group2]

@@ -7,3 +7,9 @@ def intersection_of_array(arr1, arr2):
                 result.append(item1)
                 arr2_copy[i] = None  # Mark as used
                 break
+  return result
+
+# Example usage
+arr1 = [1, 2, 3, 4]
+arr2 = [2, 3, 4, 5]
+print(intersection_of_array(arr1, arr2))  # Output: [2, 3, 4]

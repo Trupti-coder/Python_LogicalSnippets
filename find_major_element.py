@@ -11,3 +11,6 @@ def find_major_element(arr):
             majority_element = arr[i]
 
     return majority_element
+# Example usage
+arr = [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 9, 9, 9]
+print(find_major_element(arr))  # Output: 9

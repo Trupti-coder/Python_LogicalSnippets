@@ -6,3 +6,8 @@ def find_major_element(arr):
         for j in range(len(arr)):
             if arr[i] == arr[j]:
                 count += 1
+                if count > max_count:
+            max_count = count
+            majority_element = arr[i]
+
+    return majority_element

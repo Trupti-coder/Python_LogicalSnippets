@@ -7,3 +7,7 @@ def max_sub_array(arr):
         if arr[i] > current_sum + arr[i]:
             current_sum = arr[i]  # Start a new subarray
         else:
+              if current_sum > max_sum:
+            max_sum = current_sum
+
+    return max_sum

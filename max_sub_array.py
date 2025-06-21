@@ -11,3 +11,6 @@ def max_sub_array(arr):
             max_sum = current_sum
 
     return max_sum
+# Example usage
+arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+print(max_sub_array(arr))  # Output: 6

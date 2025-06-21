@@ -6,3 +6,6 @@ def max_product(arr):
             if product > max_prod:
                 max_prod = product
     return max_prod
+# Example usage
+arr = [1, 3, 4, 5, 6, 7, 8, 9]
+print(max_product(arr))  # Output: 72

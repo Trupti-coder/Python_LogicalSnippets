@@ -18,6 +18,11 @@ while i < len(arr1) and j < len(arr2):
 
     return merged_array
 
+# Example usage
+array1 = [1, 3, 5]
+array2 = [2, 4, 6]
+result = merge_sorted_arrays(array1, array2)
+print(result)  # Output: [1, 2, 3, 4, 5, 6]
 
 
 

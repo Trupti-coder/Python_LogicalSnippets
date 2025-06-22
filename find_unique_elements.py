@@ -14,3 +14,6 @@ def find_unique_elements(arr):
             num2 ^= num
 
     return [num1, num2]
+# Example usage
+input_array = [4, 1, 2, 1, 2, 3]
+print(find_unique_elements(input_array))  # Output: [3, 4]

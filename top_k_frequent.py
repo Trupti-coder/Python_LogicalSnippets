@@ -17,6 +17,13 @@ def top_k_frequent(nums, k):
             result.append(num)
             if len(result) == k:
                 return result
+            
+            
+# Example usage
+nums = [1, 1, 1, 2, 2, 3]
+k = 2
+print(top_k_frequent(nums, k))  # Output: [1, 2]
+
 
 
 

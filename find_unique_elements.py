@@ -5,3 +5,8 @@ def find_unique_elements(arr):
  set_bit = 1
     while (xor & set_bit) == 0:
         set_bit <<= 1
+         num1 = 0
+    num2 = 0
+    for num in arr:
+        if num & set_bit:
+            num1 ^= num

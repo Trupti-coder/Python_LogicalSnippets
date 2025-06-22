@@ -10,5 +10,14 @@ def top_k_frequent(nums, k):
     for num, freq in frequency_map.items():
         buckets[freq].append(num)
 
+         # Step 3: Gather top k frequent elements
+    result = []
+    for i in range(len(buckets) - 1, 0, -1):
+        for num in buckets[i]:
+            result.append(num)
+            if len(result) == k:
+                return result
+
+
 
 

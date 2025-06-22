@@ -9,5 +9,10 @@ while i < len(arr1) and j < len(arr2):
         else:
               merged_array.append(arr2[j])
             j += 1
+        while i < len(arr1):
+        merged_array.append(arr1[i])
+        i += 1
+
+
 
 

@@ -10,3 +10,7 @@ def find_unique_elements(arr):
     for num in arr:
         if num & set_bit:
             num1 ^= num
+             else:
+            num2 ^= num
+
+    return [num1, num2]

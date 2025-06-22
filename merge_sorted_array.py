@@ -7,3 +7,7 @@ while i < len(arr1) and j < len(arr2):
             merged_array.append(arr1[i])
             i += 1
         else:
+              merged_array.append(arr2[j])
+            j += 1
+
+

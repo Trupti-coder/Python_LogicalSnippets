@@ -5,3 +5,6 @@ def shuffle_array(arr):
         random_index = random.randint(0, i)
         arr[i], arr[random_index] = arr[random_index], arr[i]  # Swap elements
     return arr
+
+# Example usage
+print(shuffle_array([1, 2, 3, 4, 5]))

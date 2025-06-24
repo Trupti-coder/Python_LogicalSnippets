@@ -8,3 +8,6 @@ for i in range(n):
             line += str(num)
             num += 1
         else:
+               line += chr(char_code)
+            char_code += 1
+    print(line)

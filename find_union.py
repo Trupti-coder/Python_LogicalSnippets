@@ -5,11 +5,10 @@ def find_union(arr1, arr2):
         if item not in result:
             result.append(item)
 
-             for item in arr2:
+    for item in arr2:
         if item not in result:
             result.append(item)
 
-            
     return result
 
 # Example usage

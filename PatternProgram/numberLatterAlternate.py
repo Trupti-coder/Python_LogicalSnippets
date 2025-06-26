@@ -7,3 +7,6 @@ for i in range(n):
         if j % 2 == 0:
             line += str(num)
             num += 1
+             line += chr(char_code)
+            char_code += 1
+    print(line)

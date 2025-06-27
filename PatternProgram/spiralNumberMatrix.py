@@ -21,3 +21,8 @@ def spiral_matrix(n):
             matrix[i][left] = num
             num += 1
         left += 1
+
+          for row in matrix:
+        print(" ".join(f"{val:2}" for val in row))
+
+spiral_matrix(5)

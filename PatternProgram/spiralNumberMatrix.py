@@ -8,3 +8,7 @@ def spiral_matrix(n):
             matrix[top][i] = num
             num += 1
         top += 1
+         for i in range(top, bottom + 1):
+            matrix[i][right] = num
+            num += 1
+        right -= 1

@@ -12,3 +12,12 @@ def spiral_matrix(n):
             matrix[i][right] = num
             num += 1
         right -= 1
+
+         for i in range(right, left - 1, -1):
+            matrix[bottom][i] = num
+            num += 1
+        bottom -= 1
+        for i in range(bottom, top - 1, -1):
+            matrix[i][left] = num
+            num += 1
+        left += 1

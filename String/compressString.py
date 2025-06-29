@@ -7,5 +7,5 @@ while i < len(s):
         count += 1
         i += 1
     res += s[i] + str(count)
-      i += 1
+    i += 1
 print(res)  # Output: "a3b2c4"

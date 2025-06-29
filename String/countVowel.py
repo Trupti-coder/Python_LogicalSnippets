@@ -1,0 +1,2 @@
+s = "beautiful"
+vowels = "aeiouAEIOU"

@@ -1,2 +1,4 @@
 from collections import Counter
 s = "apple orange banana apple"
+word_freq = Counter(s.split())
+print(word_freq)  # Output: {'apple': 2, 'orange': 1, 'banana': 1}

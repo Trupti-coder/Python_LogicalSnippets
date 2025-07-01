@@ -8,3 +8,10 @@ def one_edit_apart(s1, s2):
         if s1[i] != s2[j]:
             if edits == 1:
                 return False
+             edits += 1
+            if len(s1) == len(s2):
+                i += 1
+        else:
+            i += 1
+        j += 1
+    return True

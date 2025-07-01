@@ -15,3 +15,5 @@ def one_edit_apart(s1, s2):
             i += 1
         j += 1
     return True
+
+print(one_edit_apart("pale", "ple"))  # Output: True

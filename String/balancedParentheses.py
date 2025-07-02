@@ -7,3 +7,7 @@ def is_balanced(s):
         elif ch in ")]}":
             if not stack or stack.pop() != pairs[ch]:
                 return False
+    
+     return not stack
+
+print(is_balanced("{[()]}"))  # Output: True
